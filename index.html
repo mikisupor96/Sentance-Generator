@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A chinese learning tool for quick word recap">
+        <meta name="author" content="Mihai Gabriel">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles/style.css">
+        <title>JiaYou</title>
+    </head>
+    <body class="d-flex h-100 text-center text-white bg-dark">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="mb-auto"></header>
+            <main class="px-3">
+                <p class="lead fs-6">
+                    <a href="https://i.picsum.photos/id/1024/1920/1280.jpg?hmac=-PIpG7j_fRwN8Qtfnsc3M8-kC3yb0XYOBfVzlPSuVII" target="_blank"><img src="https://picsum.photos/id/1024/325/250" class="card-img-top img-thumbnail" alt="A soaring eagle"></a>
+                    <div class="card-body">
+                        <h3 class="card-title">It's better to be without a book than to believe a book entirely</h5>
+                        <p class="card-text">According to <a class="text-muted" href="https://www.britishcouncil.org/voices-magazine/why-native-english-speakers-can-learn-mandarin-easily" target="_blank">this</a> article ,Chinese grammar is in many ways similar to English grammar. A simple Chinese sentence structure consists of a subject, a predicate and an object. For example, 'I wash my hands' in Chinese is 我 Wo (I) 洗 xi (wash) 手 shou (hands). Chinese gammar is even simpler in some ways. For instance, the Chinese language does not have different forms based on gender, or singular/plural. There are some differences between Chinese and English, but it is not hard to trace the clue and bridge the gap.</p>
+                        <button type="button" id="getSentance" class="btn btn-light">Let`s practice!</button>   
+                        <h5 class="card-title mt-4" id="english"></h5>
+                        <p class="card-text" id="pinyin"></p>
+                        <p class="card-text" id="letters"></p>
+                    </div>
+                </p>
+            </main>
+        
+            <footer class="mt-3 text-white-50">
+                <p class="text-end fs-6">JiaYou© made by Mihai</p>
+            </footer>
+        </div>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="/scripts/chinese.js"></script>
+        <script src="/scripts/index.js"></script>
+    </body>
+</html>
